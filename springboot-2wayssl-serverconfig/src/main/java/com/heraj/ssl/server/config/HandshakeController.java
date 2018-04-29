@@ -9,7 +9,7 @@ public class HandshakeController {
     
     @RequestMapping(path = "handshakeNGC",  method = RequestMethod.GET)
     public String welcome(){
-        return "Hello Identity";
+        return "Hello User, Welcome to Heraj's ssl sample code.";
     }
 
 }
