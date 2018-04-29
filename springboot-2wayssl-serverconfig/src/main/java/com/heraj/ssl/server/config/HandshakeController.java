@@ -1,4 +1,4 @@
-package com.splus.sample;
+package com.heraj.ssl.server.config;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

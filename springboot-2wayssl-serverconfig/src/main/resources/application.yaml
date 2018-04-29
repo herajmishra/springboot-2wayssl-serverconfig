@@ -1,10 +1,5 @@
 server:
   port: 8180
   ssl:
-    enabled2way: true
-    key-alias: tescoserverkey
-    key-store: "serverkeystore.p12"
-    key-store-password: 123456
-    trust-store: "servertruststore.p12"
-    trust-store-password: 123456
-    client-auth: "NEED"
+    enabled2way: false
+    

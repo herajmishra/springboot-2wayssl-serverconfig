@@ -1,4 +1,4 @@
-package com.splus.sample;
+package com.heraj.ssl.server.config;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -32,6 +32,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Configuration
 @Slf4j
+@ConditionalOnProperty("server.ssl.enabled2way")
 public class MutualAuthServerConfig {
     
     @Bean
